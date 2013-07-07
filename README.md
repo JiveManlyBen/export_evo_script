@@ -11,7 +11,7 @@ This script tries to get a more complete dataset by using SQL to import the post
 
 Backup all data before using this script.  This script comes with no warranty.  You are ultimately responsible for your own data.
 
-Useage
+Usage
 ======
 The export_evo_script directory should be copied to the plugins directory of the b2evolution install.  The script must then be executed on the command line by including user IDs in both systems.
 
