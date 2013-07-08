@@ -15,4 +15,4 @@ Usage
 ======
 The export_evo_script directory should be copied to the plugins directory of the b2evolution install.  The script must then be executed on the command line by including user IDs in both systems.
 
-If the user ID in b2evolution was 4 and the same user in wordpress was 6, the command would be "php export_evo_script.php 4 6".  The script then exports a file named "wp_user_6_posts.sql".  That SQL script should be run on the wordpress database to import the b2evolution posts for that user.
+When executing this script, the b2evolution and wordpress user IDs are required, and a database prefix (for the wordpress database) is optional. If the user ID in b2evolution was 4, the user ID in wordpress was 6, and the database prefix was "word_", the command would be "php export_evo_script.php 4 6 word_".  The script then exports a file named "wp_user_6_posts.sql".  That SQL script should be run on the wordpress database to import the b2evolution posts for that user.
