@@ -19,4 +19,4 @@ When executing this script, the b2evolution and wordpress user IDs are required,
 
 Notes
 =====
-This script only moved the blog text, so uploaded files need to be moved seperately.  Because of the size of the SQL scripts, it is safest to run the file on the command line.  Attempting to run the scripts using a desktop client can cause errors.
+This script only moved the blog text, so uploaded files need to be moved seperately.  Because of the size of the SQL scripts, it is safest to run the file on the [command line](http://dev.mysql.com/doc/refman/5.5/en/mysql-batch-commands.html).  Attempting to run the scripts using a desktop client can cause errors.
